@@ -1,0 +1,33 @@
+body {
+    font-family: 'Coming Soon', cursive;
+}
+input {
+    width:50%;
+    margin:1% 5%;
+    padding:1%;
+    transition:0.5s;
+    border:1px solid grey;
+}
+input:focus {
+    width:80%;
+}
+ul {
+    list-style-type:none;
+}
+li {
+    float:left;
+}
+li h1, li p {
+    display:none;
+}
+button {
+    margin:1% 5%;
+    background-color:skyblue;
+    color:white;
+    padding:1%;
+    border:none;
+    cursor:pointer;
+}
+#back {
+  display:none;
+}
