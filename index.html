@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>EMOJI FINDER</title>
+	<link href="https://fonts.googleapis.com/css?family=Coming+Soon" rel="stylesheet">
+	<link rel="stylesheet" href="main.css">
+	<script src="main.js"></script>
+	<style>
+	body {
+		overflow-x:hidden;
+	}
+	@media(max-width:768px) {
+		input {
+			padding:3%;
+		}
+		button {
+			padding:5%;
+			width:85%;
+		}
+		h1 {
+			font-size:18px;
+		}
+	}
+	</style>
+</head>
+<body id="load" onload="load()">
+	<input type="text" name="emoji" id="emoji" placeholder="Search for emoji.."><br>
+	<button type="button" id="more">More about emojis</button>
+	<button type="button" id="back">Back</button>
+	<ul id="output">
+	</ul>
+</html>
